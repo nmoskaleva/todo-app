@@ -30,14 +30,6 @@ class TodoItem extends Component {
     this.props.complete(this.props.id);
   };
 
-  onEnter = e => {
-    e.preventDefault();
-    if (e.keyCode === 13) {
-      this.props.edit(this.props.id, this.state.text);
-      this.setState({ isEditing: !this.state.isEditing });
-    }
-  };
-
   render() {
     return (
       <div className='Todo'>
@@ -48,7 +40,6 @@ class TodoItem extends Component {
               name='text'
               value={this.state.text}
               onChange={this.handleChange}
-              onKeyUp={this.onEnter}
             ></TextareaAutosize>
             <button type='submit'>
               <i className='fas fa-save'></i>
