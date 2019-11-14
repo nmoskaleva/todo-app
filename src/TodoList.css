@@ -1,0 +1,28 @@
+.TodoList {
+  max-width: 550px;
+  min-width: 490px;
+  margin: 2rem auto;
+  padding: 3rem;
+  background: #f4e9e3;
+  color: #4a3838;
+  border-radius: 0.8rem;
+  box-shadow: 15px 11px 26px 3px rgba(0, 0, 0, 0.75);
+}
+
+.TodoList h1 {
+  font-size: 3rem;
+  font-family: 'Anton', sans-serif;
+}
+
+.TodoList h2 {
+  margin-top: 0;
+  padding-bottom: 0.6rem;
+  font-size: 0.9em;
+  border-bottom: 1px solid #6a8a82;
+  color: #4a635d;
+}
+
+.TodoList ul {
+  list-style: none;
+  margin-top: 2em;
+}

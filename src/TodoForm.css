@@ -1,0 +1,44 @@
+.Todo-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.Todo-form input,
+.Todo-form button {
+  height: 3.5rem;
+  margin-bottom: 1;
+}
+
+.Todo-form input {
+  flex-grow: 1;
+  padding: 0 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  background: #faf8f8;
+  color: #4a3838;
+  font-size: 0.9rem;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+::placeholder {
+  color: #6a8a82;
+  opacity: 0.4;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.Todo-form button {
+  margin-left: 0.3rem;
+  padding: 0 1.3rem;
+  background: #6a8a82;
+  color: #faf8f8;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Bhai', cursive;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+.Todo-form button:hover {
+  background: #607d76;
+  transition: background 0.5s ease-out;
+}
